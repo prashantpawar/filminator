@@ -1,5 +1,5 @@
 var im = require('imagemagick');
-im.readMetadata('training-data/tmax-100-1.jpg', function(err, metadata){
+im.identify('training-data/tmax-100-1.jpg', function(err, features){
   if (err) throw err;
-  console.log('Shot at '+metadata.exif.dateTimeOriginal);
+  console.log(features);
 })
