@@ -1,0 +1,25 @@
+{
+  "name": "Filminator",
+  "version": "1.0.0",
+  "description": "Analog Film detection through machine learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashantpawar/filminator.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "film",
+    "35mm"
+  ],
+  "author": "Prashant Singh Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashantpawar/filminator/issues"
+  },
+  "homepage": "https://github.com/prashantpawar/filminator"
+}
